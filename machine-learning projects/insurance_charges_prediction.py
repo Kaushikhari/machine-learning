@@ -3,9 +3,8 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
-#
-# from sklearn.preprocessing import StandardScaler
-# from sklearn.model_selection import cross_val_score
+
+
 # dropna, replace, astype, strip, str
 # Cleaning our dataset
 insurance_data_path = 'insurance.csv'
@@ -37,21 +36,21 @@ new_df = new_df.drop(columns=['sex'])
 new_df = new_df.dropna().reset_index(drop=True)
 # print(new_df.info())
 
-# Step 1: Split features and target
+# Split features and target
 X = new_df.drop(columns=['charges'])
 y = new_df['charges']
 
-# Step 2: Train-test split
+# Train-test split method
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Step 3: Train the model
+# Train the model
 model = LinearRegression()
 model.fit(X_train, y_train)
 
-# Step 4: Predict on test data
+# Predict on test data
 y_pred = model.predict(X_test)
 
-# Step 5: Evaluate the model
+# Evaluation
 print("R² Score:", r2_score(y_test, y_pred))
 print("RMSE:", np.sqrt(mean_squared_error(y_test, y_pred)))
 
