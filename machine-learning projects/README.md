@@ -60,7 +60,4 @@ The project demonstrates **data preprocessing**, **feature engineering**, **mode
 
 ---
 
-## 📈 Evaluation Metrics
-
-Example output (your actual numbers may vary):
 
