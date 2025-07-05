@@ -55,8 +55,8 @@ The project demonstrates **data preprocessing**, **feature engineering**, **mode
 - Used `LinearRegression` from `sklearn`.
 - Split the dataset into **train** and **test** sets (80/20).
 - Evaluated using:
-  - **R² Score**
-  - **RMSE (Root Mean Squared Error)**
+  - **R² Score: 0.704841**
+  - **RMSE (Root Mean Squared Error): 6320.5164**
 
 ---
 
