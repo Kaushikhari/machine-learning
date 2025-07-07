@@ -1,4 +1,4 @@
-# Smart Meter Power Consumption Prediction 🔌⚡
+# Smart Meter Power Consumption Prediction using Linear Regression and Artificial Neural Networks 🔌⚡
 
 This project uses machine learning to predict household electricity consumption (Global Active Power in kW) based on voltage, sub-metering, and time features. The goal is to help utilities and smart grid companies understand consumption patterns in real-time.
 
@@ -46,3 +46,5 @@ Tested on actual household data for **June 1, 2010**
 - Over 2 million records (Dec 2006–Nov 2010)
 - 1-minute sampling rate
 - Time-series format
+- This project uses the [Household Electric Power Consumption dataset](https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set) from Kaggle.
+- Please download it from the link above and place the file `household_power_consumption.txt` inside the `data/` folder.
