@@ -53,8 +53,8 @@ Forecasting energy demand helps in:
 
 ## 📈 Results
 
-![Actual vs Predicted Plot](downlad.png)
-The model successfully captures energy usage trends with reasonably good accuracy using simple features like `day_of_week` and `notes`.
+![Actual vs Predicted Plot](download.png)
+- The model successfully captures energy usage trends with reasonably good accuracy using simple feature like`day_of_week` and `notes`.
 
 ---
 
